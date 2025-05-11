@@ -2,41 +2,44 @@
     padding: 0;
     margin: 0;
 
-
 }
 
 .page1 {
     background-color: #FEFCFB;
     width: 100%;
 
-
 }
 
-.containerpage1 {
-    padding-top: 50px;
+.mainhead {
     display: flex;
     justify-content: center;
-    align-items: center;
 
+    padding-top: 50px;
 
 }
 
 .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-    text-align: center;
-    width: 70%;
+    width: 75%;
 }
+
+
 
 .sheader {
     display: flex;
+
     justify-content: space-between;
-
-
+    align-items: center;
 }
 
 .menu>ul>li {
     display: inline;
     font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 16px;
     margin: 5px;
 }
@@ -44,7 +47,6 @@
 .logo {
     font-family: "Volkhov", serif;
     font-size: 24px;
-
 }
 
 .login {
@@ -57,26 +59,24 @@
 }
 
 .signup>button {
-
     border: none;
     font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    padding: 10px;
     background-color: #FA7436;
     border-radius: 5px;
     color: #FFFFFF;
-    width: 130px;
-    height: 40px;
     filter: drop-shadow(0px 3px 3px #FA7436);
-
 }
-
-
 
 .subtittle {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FEFCFB;
     width: 100%;
-
 
 }
 
@@ -84,57 +84,49 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
     font-family: "Volkhov", serif;
-    font-size: 47px;
+    font-size: 46px;
     margin-top: 60px;
+    width: 35.2%;
+}
 
-
+.bigtittle b span {
+    color: rgba(253, 141, 58, 1);
 }
 
 .bigtittlepara {
     display: flex;
     justify-content: end;
+    flex-wrap: wrap;
+
     color: rgba(102, 102, 102, 1);
     text-align: justify;
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
+    font-style: normal;
+    font-size: 24px;
     margin-top: 50px;
-
 }
 
 .discoverbuton>button {
-
     color: rgba(250, 116, 54, 1);
     font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    padding: 8px;
     border-color: #FA7436;
     border-radius: 5px;
     background-color: white;
-    width: 130px;
-    height: 40px;
-
-
-}
-
-.manimage {
-    margin-top: 10px;
-    width: 40%;
-
-
 }
 
 .searchdetails {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 70px;
-
-
 }
 
 .bookingdate {
@@ -142,34 +134,126 @@
     justify-content: space-around;
     align-items: center;
     background-color: #FFFFFF;
-    width: 55%;
-    height: 75px;
     border-radius: 5px;
+    padding: 10px;
     filter: drop-shadow(-3px 7px 15px #e0d1d1);
-    margin-top: 40px;
 }
 
 .explorebox {
     display: flex;
     border-color: none;
-    width: 55%;
-    height: 50%;
+    margin-right: 10px;
 }
 
 .bookingbox {
     padding-right: 30px;
 }
 
-
 .bookingmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
+    font-style: normal;
+    font-size: 18px;
     color: #222222;
 }
 
-.bookingdetails {
-
+.datemenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #222222;
+
+}
+
+.guest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #222222;
+}
+
+.arrowone {
+
+    margin: 3px;
+    width: 4px;
+    height: 4px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-top-color: #FA7436;
+    border-right-color: #FA7436;
+    transform: rotate(134deg);
+
+}
+
+.arrowtwo {
+
+    margin: 3px;
+    width: 4px;
+    height: 4px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-top-color: #FA7436;
+    border-right-color: #FA7436;
+    transform: rotate(134deg);
+    left: 80px;
+    bottom: 53px;
+}
+
+.arrowthree {
+
+    margin: 3px;
+    width: 4px;
+    height: 4px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-top-color: #FA7436;
+    border-right-color: #FA7436;
+    transform: rotate(134deg);
+
+}
+
+
+.bookingdetails {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: #666666;
+}
+
+.date {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: #666666;
+
+
+}
+
+
+
+.arrow2 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid #FA7436;
+    border-top: 2px solid #FA7436;
+    border-left: 2px solid #FA7436;
+    transform: rotate(225deg);
+    left: 80px;
+    top: 14px;
+}
+
+.totalguest {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
     font-size: 12px;
     color: #666666;
 
@@ -179,53 +263,21 @@
     padding-right: 30px;
 }
 
-.datemenu {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    color: #222222;
-
-}
-
-.date {
-    font-family: "Poppins", sans-serif;
-    font-size: 12px;
-    color: #666666;
-
-}
-
-
-
-.totalguest {
-    font-family: "Poppins", sans-serif;
-    font-size: 12px;
-    color: #666666;
-}
-
-.guest {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    color: #222222;
-
-}
-
 .explore>button {
-
     color: white;
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    padding: 12px;
+    font-style: normal;
+    font-size: 16px;
+    padding: 8px;
     border: none;
     border-radius: 5px;
     background-color: rgba(250, 116, 54, 1);
-    width: 145px;
-    height: 45px;
 }
 
 .page2 {
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-color: #F7F8FC;
     width: 100%;
 
@@ -339,7 +391,7 @@
     font-family: "Poppins", sans-serif;
     font-size: 22px;
     background-color: #FFFFFF;
-    width: 300px;
+    max-width: 300px;
     background-image: url("slindleft.png");
 }
 
@@ -389,6 +441,7 @@
 
     margin-top: 70px;
     width: 70%;
+    height: 70%;
 
 }
 
@@ -406,11 +459,10 @@
 
 .madridcard {
 
-
-    min-width: 214px;
-    min-height: 260px;
+    border-radius: 5px;
+    min-width: 20%;
+    min-height: 20%;
     background-color: #FEFCFB;
-    padding: 10px;
     filter: drop-shadow(5px 5px 10px #FFE7DB);
 }
 
@@ -457,10 +509,10 @@
 }
 
 .Firenzecard {
-    min-width: 214px;
-    min-height: 260px;
+    border-radius: 5px;
+    min-width: 20%;
+    min-height: 20%;
     background-color: #FEFCFB;
-    padding: 10px;
     filter: drop-shadow(5px 5px 10px #FFE7DB);
 }
 
@@ -536,9 +588,11 @@
 }
 
 
+
 .Pariscard {
-    min-width: 241px;
-    min-height: 260px;
+    border-radius: 5px;
+    min-width: 20%;
+    min-height: 20%;
     background-color: #FEFCFB;
     filter: drop-shadow(5px 5px 10px #FFE7DB);
 
@@ -590,10 +644,13 @@
 }
 
 .londoncard {
-    min-width: 214px;
-    min-height: 260px;
+    border-color: #666666;
+    border-radius: 5px;
+    min-width: 20%;
+    min-height: 20%;
+
     background-color: #FEFCFB;
-    padding: 10px;
+
     filter: drop-shadow(5px 5px 10px #FFE7DB);
 }
 
@@ -761,8 +818,8 @@
 }
 
 .rocard {
-    min-width: 254px;
-    min-height: 234px;
+    min-width: 25%;
+    min-height: 23%;
     background-color: #FFFFFF;
     padding: 5px;
     border-radius: 10px;
@@ -786,8 +843,8 @@
 }
 
 .loncard {
-    min-width: 244px;
-    min-height: 234px;
+    min-width: 25%;
+    min-height: 23%;
     background-color: #FFFFFF;
     padding: 5px;
     border-radius: 10px;
@@ -812,8 +869,8 @@
 }
 
 .japancard {
-    min-width: 254px;
-    min-height: 234px;
+    min-width: 25%;
+    min-height: 23%;
     background-color: #FFFFFF;
     padding: 5px;
     border-radius: 10px;
@@ -877,15 +934,17 @@
 
 .profile {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-end;
     margin-top: 100px;
-    width: 74%;
+    padding-left: 70px;
+    width: 64%;
 
 }
 
 .profilephoto {
     position: relative;
+
     bottom: 260px;
 
     z-index: 2;
@@ -1022,34 +1081,34 @@
 .amazingcard {
 
 
-    min-width: 214px;
-    min-height: 214px;
+    min-width: 24%;
+    min-height: 24%;
     background-color: #FEFCFB;
-    padding: 10px;
+    padding: 8px;
 
 }
 
 .travelenoughcard {
-    min-width: 214px;
-    min-height: 214px;
+    min-width: 24%;
+    min-height: 24%;
     background-color: #FEFCFB;
-    padding: 10px;
+    padding: 8px;
 
 }
 
 .savemoneycard {
-    min-width: 214px;
-    min-height: 214px;
+    min-width: 24%;
+    min-height: 24%;
     background-color: #FEFCFB;
-    padding: 10px;
+    padding: 8px;
 }
 
 
 .Reflectionscard {
-    min-width: 214px;
-    min-height: 214px;
+    min-width: 24%;
+    min-height: 24%;
     background-color: #FEFCFB;
-    padding: 10px;
+    padding: 8px;
 }
 
 .amazingpara {
@@ -1152,6 +1211,7 @@
 
 .page7 {
     background-color: #F7F8FC;
+    width: 100%;
 }
 
 .pa7 {
@@ -1172,7 +1232,7 @@
 }
 
 .box {
-    width: 70%;
+    width: 100%;
 }
 
 
@@ -1215,24 +1275,23 @@
     display: flex;
     justify-content: center;
     align-items: start;
+
 }
 
 
 
 .searchbox>button {
-    position: relative;
+    position: absolute;
     text-align: center;
-    right: 70px;
-    width: 50px;
-    height: 28px;
+    top: 250px;
+    left: 578px;
+    z-index: 3;
     background-color: #FA7436;
     border: none;
-    color: #FFFFFF;
+    color: #F7F8FC;
+    width: 100px;
+    height: 34px;
     border-radius: 5px;
-    margin: 8px;
-
-
-
 }
 
 .searchbox>i {
@@ -1244,18 +1303,16 @@
 }
 
 .coconuttree {
-    position: relative;
-    bottom: 400px;
+    position: absolute;
     left: 680px;
-    color: #FFFFFF;
-
+    bottom: 270px;
 }
 
 .ringimg {
     color: #FFFFFF;
     position: relative;
-    left: 3px;
-    bottom: 355px;
+    left: 2px;
+    bottom: 235px;
     z-index: 1;
 }
 
@@ -1269,8 +1326,6 @@
     justify-content: center;
     width: 100%;
 }
-
-.detailbox {}
 
 .savemoneypara {
     font-family: "Poppins", sans-serif;
@@ -1301,7 +1356,6 @@
 
 }
 
-.companydetails {}
 
 .company {
     margin: 20px;
@@ -1365,6 +1419,7 @@
 .detail {
     width: 100%;
     background-color: #F7F8FC;
+
 }
 
 .detailmain {
@@ -1378,12 +1433,11 @@
     width: 50%;
     display: flex;
     justify-content: space-between;
-
+    border-top: 2px solid #999999;
 }
 
 .contentbox {
     width: 100%;
-    padding: 10px;
 
 
 }
